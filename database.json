@@ -1,246 +1,253 @@
 {
-    "users":[
-        {
-            "id":1,
-            "username":"Youngster Joey",
-            "role":"admin",
-            "type":1,
-            "created_at": "2024-04-23 09:10:00"
-        },
-        {
-            "id":2,
-            "username":"Definitely Not Youngster Joey",
-            "role":"user",
-            "type":1,
-            "created_at": "2024-04-23 09:50:00"
-        },
-        {
-            "id":3,
-            "username":"Ace Trainer Liam",
-            "role":"user",
-            "type":1,
-            "created_at": "2024-04-23 10:30:00"
-        },
-        {
-            "id":4,
-            "username":"Hiker Clark",
-            "role":"user",
-            "type":1,
-            "created_at": "2024-04-23 11:15:00"
-        },
-        {
-            "id":5,
-            "username":"Picnicker Liz",
-            "role":"user",
-            "type":1,
-            "created_at": "2024-04-23 12:05:00"
-        },
-        {
-            "id":6,
-            "username":"Camper Ethan",
-            "role":"user",
-            "type":1,
-            "created_at": "2024-04-23 12:45:00"
-        }
-    ],
-    "posts":[
-        {
-            "id":1,
-            "title":"I like shorts!",
-            "body":"They're comfortable, and easy to wear!",
-            "userId":1,
-            "topic":1,
-            "created_at":"2024-04-23 09:12:00"
-        },
-        {
-            "id":2,
-            "title":"Wow! Youngster Joey is cool!",
-            "body":"Joey is such a cool guy! He even likes shorts! Also, I heard is ratata is in the top percentage of ratata",
-            "userId":2,
-            "topic":2,
-            "created_at":"2024-04-23 09:52:00"
-        },
-        {
-            "id":3,
-            "title":"Ace Trainer's Style",
-            "body":"Ace Trainer Liam knows that ease of movement is key for a quick battle!",
-            "userId":3,
-            "topic":3,
-            "created_at":"2024-04-23 10:32:00"
-        },
-        {
-            "id":4,
-            "title":"Hiker's Comfort",
-            "body":"Hiker Clark enjoys the breezy ventilation of shorts on a long hike.",
-            "userId":4,
-            "topic":4,
-            "created_at":"2024-04-23 11:17:00"
-        },
-        {
-            "id":5,
-            "title":"Picnicker's Choice",
-            "body":"Picnicker Liz loves the quick drying fabric of her shorts after a sit by the lake.",
-            "userId":5,
-            "topic":5,
-            "created_at":"2024-04-23 12:07:00"
-        },
-        {
-            "id":6,
-            "title":"Camper's Selection",
-            "body":"Camper Ethan picks shorts for their versatile style, perfect for any camping trip!",
-            "userId":6,
-            "topic":6,
-            "created_at":"2024-04-23 12:47:00"
-        },
-        {
-            "id":7,
-            "title":"Sun's Out, Shorts Out",
-            "body":"Youngster Joey knows that shorts offer great sun protection for days out in the field.",
-            "userId":1,
-            "topic":7,
-            "created_at":"2024-04-23 13:10:00"
-        },
-        {
-            "id":8,
-            "title":"Sporty and Shorty",
-            "body":"Definitely Not Youngster Joey shows off the sporty appeal of his favorite shorts.",
-            "userId":2,
-            "topic":9,
-            "created_at":"2024-04-23 13:50:00"
-        },
-        {
-            "id":9,
-            "title":"Ready for Adventure",
-            "body":"Ace Trainer Liam appreciates the easy storage of shorts when on the go.",
-            "userId":3,
-            "topic":10,
-            "created_at":"2024-04-23 14:30:00"
-        },
-        {
-            "id":10,
-            "title":"Practical Pockets",
-            "body":"Hiker Clark values the pocket convenience of his shorts for carrying trail snacks.",
-            "userId":4,
-            "topic":7,
-            "created_at":"2024-04-23 15:15:00"
-        }
-    ],
-    "topics":[
-        {
-            "id":1,
-            "topicName":"general appreciation"
-        },
-        {
-            "id":2,
-            "topicName":"user appreciation"
-        },
-        {
-            "id": 3,
-            "topicName": "ease of movement"
-        },
-        {
-            "id": 4,
-            "topicName": "breezy ventilation"
-        },
-        {
-            "id": 5,
-            "topicName": "quick drying fabric"
-        },
-        {
-            "id": 6,
-            "topicName": "versatile style"
-        },
-        {
-            "id": 7,
-            "topicName": "pocket convenience"
-        },
-        {
-            "id": 8,
-            "topicName": "sun protection"
-        },
-        {
-            "id": 9,
-            "topicName": "sporty appeal"
-        },
-        {
-            "id": 10,
-            "topicName": "easy storage"
-        }
-    ],
-    "likes":[
-        {
-            "id":1,
-            "likedPostId":1,
-            "userId":2,
-            "created_at":"2024-04-23 09:51:00"
-        },
-        {
-            "id":2,
-            "likedPostId":2,
-            "userId":1,
-            "created_at":"2024-04-23 09:53:00"
-        }
-    ],
-    "type":[
-        {
-            "id":1,
-            "typeName":"Normal"
-        },
-        {
-            "id":2,
-            "typeName":"Fighting"
-        },
-        {
-            "id":3,
-            "typeName":"Flying"
-        },
-        {
-            "id":4,
-            "typeName":"Poison"
-        },
-        {
-            "id":5,
-            "typeName":"Ground"
-        },
-        {
-            "id":6,
-            "typeName":"Rock"
-        },
-        {
-            "id":7,
-            "typeName":"Bug"
-        },
-        {
-            "id":8,
-            "typeName":"Ghost"
-        },
-        {
-            "id":9,
-            "typeName":"Fire"
-        },
-        {
-            "id":10,
-            "typeName":"Water"
-        },
-        {
-            "id":11,
-            "typeName":"Grass"
-        },
-        {
-            "id":12,
-            "typeName":"Electric"
-        },
-        {
-            "id":13,
-            "typeName":"Psychic"
-        },
-        {
-            "id":14,
-            "typeName":"Ice"
-        },
-        {
-            "id":15,
-            "typeName":"Dragon"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "username": "Youngster Joey",
+      "role": "admin",
+      "type": 1,
+      "created_at": "2024-04-23 09:10:00"
+    },
+    {
+      "id": 2,
+      "username": "Definitely Not Youngster Joey",
+      "role": "user",
+      "type": 1,
+      "created_at": "2024-04-23 09:50:00"
+    },
+    {
+      "id": 3,
+      "username": "Ace Trainer Liam",
+      "role": "user",
+      "type": 1,
+      "created_at": "2024-04-23 10:30:00"
+    },
+    {
+      "id": 4,
+      "username": "Hiker Clark",
+      "role": "user",
+      "type": 1,
+      "created_at": "2024-04-23 11:15:00"
+    },
+    {
+      "id": 5,
+      "username": "Picnicker Liz",
+      "role": "user",
+      "type": 1,
+      "created_at": "2024-04-23 12:05:00"
+    },
+    {
+      "id": 6,
+      "username": "Camper Ethan",
+      "role": "user",
+      "type": 1,
+      "created_at": "2024-04-23 12:45:00"
+    },
+    {
+      "username": "test",
+      "type": 1,
+      "role": "user",
+      "created_at": "2024-04-24 10:45:49",
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "I like shorts!",
+      "body": "They're comfortable, and easy to wear!",
+      "userId": 1,
+      "topic": 1,
+      "created_at": "2024-04-23 09:12:00"
+    },
+    {
+      "id": 2,
+      "title": "Wow! Youngster Joey is cool!",
+      "body": "Joey is such a cool guy! He even likes shorts! Also, I heard is ratata is in the top percentage of ratata",
+      "userId": 2,
+      "topic": 2,
+      "created_at": "2024-04-23 09:52:00"
+    },
+    {
+      "id": 3,
+      "title": "Ace Trainer's Style",
+      "body": "Ace Trainer Liam knows that ease of movement is key for a quick battle!",
+      "userId": 3,
+      "topic": 3,
+      "created_at": "2024-04-23 10:32:00"
+    },
+    {
+      "id": 4,
+      "title": "Hiker's Comfort",
+      "body": "Hiker Clark enjoys the breezy ventilation of shorts on a long hike.",
+      "userId": 4,
+      "topic": 4,
+      "created_at": "2024-04-23 11:17:00"
+    },
+    {
+      "id": 5,
+      "title": "Picnicker's Choice",
+      "body": "Picnicker Liz loves the quick drying fabric of her shorts after a sit by the lake.",
+      "userId": 5,
+      "topic": 5,
+      "created_at": "2024-04-23 12:07:00"
+    },
+    {
+      "id": 6,
+      "title": "Camper's Selection",
+      "body": "Camper Ethan picks shorts for their versatile style, perfect for any camping trip!",
+      "userId": 6,
+      "topic": 6,
+      "created_at": "2024-04-23 12:47:00"
+    },
+    {
+      "id": 7,
+      "title": "Sun's Out, Shorts Out",
+      "body": "Youngster Joey knows that shorts offer great sun protection for days out in the field.",
+      "userId": 1,
+      "topic": 7,
+      "created_at": "2024-04-23 13:10:00"
+    },
+    {
+      "id": 8,
+      "title": "Sporty and Shorty",
+      "body": "Definitely Not Youngster Joey shows off the sporty appeal of his favorite shorts.",
+      "userId": 2,
+      "topic": 9,
+      "created_at": "2024-04-23 13:50:00"
+    },
+    {
+      "id": 9,
+      "title": "Ready for Adventure",
+      "body": "Ace Trainer Liam appreciates the easy storage of shorts when on the go.",
+      "userId": 3,
+      "topic": 10,
+      "created_at": "2024-04-23 14:30:00"
+    },
+    {
+      "id": 10,
+      "title": "Practical Pockets",
+      "body": "Hiker Clark values the pocket convenience of his shorts for carrying trail snacks.",
+      "userId": 4,
+      "topic": 7,
+      "created_at": "2024-04-23 15:15:00"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "topicName": "general appreciation"
+    },
+    {
+      "id": 2,
+      "topicName": "user appreciation"
+    },
+    {
+      "id": 3,
+      "topicName": "ease of movement"
+    },
+    {
+      "id": 4,
+      "topicName": "breezy ventilation"
+    },
+    {
+      "id": 5,
+      "topicName": "quick drying fabric"
+    },
+    {
+      "id": 6,
+      "topicName": "versatile style"
+    },
+    {
+      "id": 7,
+      "topicName": "pocket convenience"
+    },
+    {
+      "id": 8,
+      "topicName": "sun protection"
+    },
+    {
+      "id": 9,
+      "topicName": "sporty appeal"
+    },
+    {
+      "id": 10,
+      "topicName": "easy storage"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "postsId": 1,
+      "userId": 2,
+      "created_at": "2024-04-23 09:51:00"
+    },
+    {
+      "userId": 7,
+      "postsId": 1,
+      "created_at": "2024-04-29 15:04:08",
+      "id": 3
+    }
+  ],
+  "type": [
+    {
+      "id": 1,
+      "typeName": "Normal"
+    },
+    {
+      "id": 2,
+      "typeName": "Fighting"
+    },
+    {
+      "id": 3,
+      "typeName": "Flying"
+    },
+    {
+      "id": 4,
+      "typeName": "Poison"
+    },
+    {
+      "id": 5,
+      "typeName": "Ground"
+    },
+    {
+      "id": 6,
+      "typeName": "Rock"
+    },
+    {
+      "id": 7,
+      "typeName": "Bug"
+    },
+    {
+      "id": 8,
+      "typeName": "Ghost"
+    },
+    {
+      "id": 9,
+      "typeName": "Fire"
+    },
+    {
+      "id": 10,
+      "typeName": "Water"
+    },
+    {
+      "id": 11,
+      "typeName": "Grass"
+    },
+    {
+      "id": 12,
+      "typeName": "Electric"
+    },
+    {
+      "id": 13,
+      "typeName": "Psychic"
+    },
+    {
+      "id": 14,
+      "typeName": "Ice"
+    },
+    {
+      "id": 15,
+      "typeName": "Dragon"
+    }
+  ]
 }
